@@ -4,7 +4,7 @@
 ──────────────────────────────────────────────────────── */
 
 const SB_URL    = 'https://ocedszxukzrnmvrecrnx.supabase.co';
-const SB_ANON   = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jZWRzenhla3pubXZyZWNybngiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTc0MDkyMDU4NiwiZXhwIjoyMDU2NDk2NTg2fQ.Y4lEGLYlmmtN37gPAhE-YFbJfJi8r_aBpzLrdVAWDjg';
+const SB_ANON   = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jZWRzenh1a3pybm12cmVjcm54Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjI4ODAsImV4cCI6MjA5Nzg5ODg4MH0.fxgMdyZlbp0V20oSvI6ZgnZNgWFh4g0iHMI4SxYLkkE';
 
 async function sbGet(table, params) {
   const qs  = params ? '?' + params : '';
